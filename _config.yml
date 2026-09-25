@@ -1,0 +1,15 @@
+title: MLphys
+description: Machine Learning in Physics — Fall 2026
+url: "https://jarek-pawlowski.github.io"
+baseurl: "/MLphys"
+theme: jekyll-theme-minimal
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+show_downloads: false
+github:
+  repository_url: https://github.com/jarek-pawlowski/MLphys
+exclude:
+  - Gemfile
+  - Gemfile.lock
