@@ -1,18 +1,18 @@
 ---
 layout: default
-title: "Lab 3 — ECG Signal Classification"
+title: "Lab 3 — Group-Equivariant CNNs"
 ---
 
-# Lab 3 — ECG Signal Classification
+# Lab 3 — Group-Equivariant CNNs
 
 ## Goals
 
 After completing this laboratory you should be able to:
 
-- prepare feature vectors from physical time-series data;
-- apply PCA for dimensionality reduction;
-- compare classical supervised classifiers;
-- evaluate models using appropriate metrics.
+- connect physical symmetries with equivariance;
+- understand group actions on images;
+- train an equivariant convolutional model;
+- compare ordinary and equivariant CNNs.
 
 
 ---
@@ -39,19 +39,19 @@ The final Fall 2026 notebook should run from top to bottom in a clean environmen
 
 ## 3. Exercises
 
-### Exercise 1 — Dataset inspection
+### Exercise 1 — Symmetry transformations
 
 **Task.** Instructions to be updated while revising and re-running the Fall 2026 notebook.
 
-### Exercise 2 — Feature engineering
+### Exercise 2 — Baseline CNN
 
 **Task.** Instructions to be updated while revising and re-running the Fall 2026 notebook.
 
-### Exercise 3 — Principal component analysis
+### Exercise 3 — Group-equivariant CNN
 
 **Task.** Instructions to be updated while revising and re-running the Fall 2026 notebook.
 
-### Exercise 4 — SVM, decision tree and random forest comparison
+### Exercise 4 — Comparison and interpretation
 
 **Task.** Instructions to be updated while revising and re-running the Fall 2026 notebook.
 
@@ -71,7 +71,7 @@ An optional extension can be used for students who finish the main exercises ear
 
 ## 6. Notebook
 
-Notebook: [`lab03.ipynb`](lab03.ipynb)
+Notebook: [`lab04.ipynb`](lab03.ipynb)
 
 > **Fall 2026 status:** template prepared; notebook still needs verification/update.
 

@@ -1,18 +1,18 @@
 ---
 layout: default
-title: "Lab 4 — Group-Equivariant CNNs"
+title: "Lab 5 — Physics-Informed Neural Networks"
 ---
 
-# Lab 4 — Group-Equivariant CNNs
+# Lab 4 — Physics-Informed Neural Networks
 
 ## Goals
 
 After completing this laboratory you should be able to:
 
-- connect physical symmetries with equivariance;
-- understand group actions on images;
-- train an equivariant convolutional model;
-- compare ordinary and equivariant CNNs.
+- use automatic differentiation to evaluate derivatives;
+- construct a physics-informed loss;
+- solve a differential equation with a neural network;
+- compare data-driven and physics-informed training.
 
 
 ---
@@ -39,19 +39,19 @@ The final Fall 2026 notebook should run from top to bottom in a clean environmen
 
 ## 3. Exercises
 
-### Exercise 1 — Symmetry transformations
+### Exercise 1 — Automatic differentiation
 
 **Task.** Instructions to be updated while revising and re-running the Fall 2026 notebook.
 
-### Exercise 2 — Baseline CNN
+### Exercise 2 — ODE/PDE residual
 
 **Task.** Instructions to be updated while revising and re-running the Fall 2026 notebook.
 
-### Exercise 3 — Group-equivariant CNN
+### Exercise 3 — PINN training
 
 **Task.** Instructions to be updated while revising and re-running the Fall 2026 notebook.
 
-### Exercise 4 — Comparison and interpretation
+### Exercise 4 — Validation against a reference solution
 
 **Task.** Instructions to be updated while revising and re-running the Fall 2026 notebook.
 
@@ -71,7 +71,7 @@ An optional extension can be used for students who finish the main exercises ear
 
 ## 6. Notebook
 
-Notebook: [`lab04.ipynb`](lab04.ipynb)
+Notebook: [`lab05.ipynb`](lab05.ipynb)
 
 > **Fall 2026 status:** template prepared; notebook still needs verification/update.
 

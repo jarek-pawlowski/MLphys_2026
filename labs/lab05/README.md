@@ -1,18 +1,18 @@
 ---
 layout: default
-title: "Lab 5 — Physics-Informed Neural Networks"
+title: "Lab 5 — Transformer Encoder"
 ---
 
-# Lab 5 — Physics-Informed Neural Networks
+# Lab 5 — Transformer Encoder
 
 ## Goals
 
 After completing this laboratory you should be able to:
 
-- use automatic differentiation to evaluate derivatives;
-- construct a physics-informed loss;
-- solve a differential equation with a neural network;
-- compare data-driven and physics-informed training.
+- understand scaled dot-product attention;
+- implement or use self-attention;
+- understand positional information;
+- apply a transformer encoder to sequential physical data.
 
 
 ---
@@ -39,19 +39,19 @@ The final Fall 2026 notebook should run from top to bottom in a clean environmen
 
 ## 3. Exercises
 
-### Exercise 1 — Automatic differentiation
+### Exercise 1 — Sequence representation
 
 **Task.** Instructions to be updated while revising and re-running the Fall 2026 notebook.
 
-### Exercise 2 — ODE/PDE residual
+### Exercise 2 — Self-attention
 
 **Task.** Instructions to be updated while revising and re-running the Fall 2026 notebook.
 
-### Exercise 3 — PINN training
+### Exercise 3 — Transformer encoder
 
 **Task.** Instructions to be updated while revising and re-running the Fall 2026 notebook.
 
-### Exercise 4 — Validation against a reference solution
+### Exercise 4 — Training and interpretation
 
 **Task.** Instructions to be updated while revising and re-running the Fall 2026 notebook.
 
@@ -71,7 +71,7 @@ An optional extension can be used for students who finish the main exercises ear
 
 ## 6. Notebook
 
-Notebook: [`lab05.ipynb`](lab05.ipynb)
+Notebook: [`lab06.ipynb`](lab06.ipynb)
 
 > **Fall 2026 status:** template prepared; notebook still needs verification/update.
 

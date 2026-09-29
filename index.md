@@ -15,16 +15,19 @@ The course introduces modern machine-learning methods with emphasis on applicati
 
 ## Lecture notes
 
-1. Machine learning fundamentals
+1. Machine learning fundamental
 2. Deep neural networks
 3. Convolutional neural networks
-4. Recurrent neural networks
-5. Attention and transformers
-6. Autoencoders and generative models
-7. Graph neural networks
-8. Group-equivariant neural networks
-9. Physics-informed neural networks
-10. Self- and semi-supervised learning
+4. Group-equivariant neural networks
+5. Graph neural networks
+6. Physics-informed neural networks
+7. Operator learning
+8. Autoencoders and generative models
+9. Attention and transformers
+
+If time permits:
+10. Recurrent neural networks
+11. Self- and semi-supervised learning
 
 [Lecture materials →](lectures/)
 
@@ -38,6 +41,7 @@ The laboratories introduce machine-learning methods through numerical experiment
 - simple perceptron networks
 - gradient descent and backpropagation
 - Universal Approximation Theorem
+- Expressivity and generalization
 - PyTorch basics
 
 [Lab 1 →](labs/lab01/)
@@ -50,39 +54,29 @@ The laboratories introduce machine-learning methods through numerical experiment
 
 [Lab 2 →](labs/lab02/)
 
-### 3. ECG signal classification
-- feature engineering
-- PCA
-- SVM
-- decision trees
-- random forests
-- scikit-learn
-
-[Lab 3 →](labs/lab03/)
-
-### 4. Group-equivariant CNNs
+### 3. Group-equivariant CNNs
 - symmetries in physical systems
 - group actions
 - equivariant convolutional networks
 - applications to crystal structures
 
-[Lab 4 →](labs/lab04/)
+[Lab 3 →](labs/lab03/)
 
-### 5. Physics-informed neural networks
+### 4. Physics-informed neural networks
 - differential equations and neural networks
 - automatic differentiation
 - physics-informed loss functions
 - solving differential equations with PINNs
+- operator learning
+
+[Lab 4 →](labs/lab04/)
+
+### 5. Transformer encoder
+- attention and self-attention
+- transformer encoder
+- physics-inspired decoder
 
 [Lab 5 →](labs/lab05/)
-
-### 6. Transformer encoder
-- attention and self-attention
-- positional encoding
-- transformer encoder
-- applications to physical data
-
-[Lab 6 →](labs/lab06/)
 
 [All laboratory materials →](labs/)
 
@@ -90,16 +84,25 @@ The laboratories introduce machine-learning methods through numerical experiment
 
 ## Literature
 
-- K. P. Murphy, *Probabilistic Machine Learning: An Introduction*
-- K. P. Murphy, *Probabilistic Machine Learning: Advanced Topics*
-- M. M. Bronstein et al., *Geometric Deep Learning: Grids, Groups, Graphs, Geodesics, and Gauges*
+- K. P. Murphy, *Probabilistic Machine Learning: An Introduction* [link →](https://probml.github.io/pml-book/book1.html)
+- K. P. Murphy, *Probabilistic Machine Learning: Advanced Topics* [link →](https://probml.github.io/pml-book/book2.html)
+- M. M. Bronstein et al., *Geometric Deep Learning: Grids, Groups, Graphs, Geodesics, and Gauges* [link →](https://geometricdeeplearning.com/)
+
+Other:
+- P. Grohs and G. Kutyniok, *Mathematical Aspects of Deep Learning*
+- I. Goodfellow, Y. Bengio, and A. Courville, *Deep Learning* [link →](https://www.deeplearningbook.org/)
 
 ---
 
-## Seminars
+## Evaluation
 
-[Proposed seminar topics →](seminars/)
+- **Laboratory projects** — all 5 projects must be completed.
+  - The deadline for each project is **3 weeks after the corresponding introductory laboratory**.
+  - Projects are evaluated / reports are discussed during the laboratory classes.
+  - A very short **1–2 page report** is required for each project.
+
+- **Final written exam** — focused on understanding the main concepts rather than technical details of neural-network architectures.
 
 ---
 
-Course repository: [MLphys on GitHub](https://github.com/jarek-pawlowski/MLphys)
+Course repository: [MLphys on GitHub](https://github.com/jarek-pawlowski/MLphys_2026)
