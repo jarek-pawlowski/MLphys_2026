@@ -105,4 +105,4 @@ Other:
 
 ---
 
-Course repository: [MLphys_2026 on GitHub](https://jarek-pawlowski.github.io/MLphys_2026)
+Course webpage: [MLphys_2026 on GitHub](https://jarek-pawlowski.github.io/MLphys_2026)
