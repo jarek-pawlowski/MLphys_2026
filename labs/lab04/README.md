@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Lab 5 — Physics-Informed Neural Networks"
+title: "Lab 4 — Physics-Informed Neural Networks"
 ---
 
 # Lab 4 — Physics-Informed Neural Networks
