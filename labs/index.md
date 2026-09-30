@@ -15,4 +15,4 @@ title: Laboratory classes
 | 4 | Physics-informed neural networks and operator learning | [Open](lab05/) |
 | 5 | Transformer encoder - physics decoder | [Open](lab06/) |
 
-[← Back to course page]({{ site.baseurl }}/)
+[← Back to course page](https://github.com/jarek-pawlowski/MLphys_2026)
