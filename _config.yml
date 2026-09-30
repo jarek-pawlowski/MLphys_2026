@@ -9,7 +9,7 @@ kramdown:
   syntax_highlighter: rouge
 show_downloads: false
 github:
-  repository_url: https://github.com/jarek-pawlowski/MLphys
+  repository_url: https://github.com/jarek-pawlowski/MLphys_2026
 exclude:
   - Gemfile
   - Gemfile.lock
