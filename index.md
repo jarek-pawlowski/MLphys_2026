@@ -15,7 +15,7 @@ The course introduces modern machine-learning methods with emphasis on applicati
 
 ## Lecture notes
 
-1. Machine learning fundamental
+1. Machine learning fundamentals
 2. Deep neural networks
 3. Convolutional neural networks
 4. Group-equivariant neural networks
@@ -50,7 +50,7 @@ The laboratories introduce machine-learning methods through numerical experiment
 - MNIST classification
 - perceptron, deep fully-connected networks and CNNs
 - overfitting, regularization and early stopping
-- data augmentation
+- applications to crystal structures
 
 [Lab 2 →](labs/lab02/README.md)
 
@@ -58,7 +58,6 @@ The laboratories introduce machine-learning methods through numerical experiment
 - symmetries in physical systems
 - group actions
 - equivariant convolutional networks
-- applications to crystal structures
 
 [Lab 3 →](labs/lab03/README.md)
 
