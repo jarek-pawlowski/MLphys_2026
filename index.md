@@ -44,7 +44,7 @@ The laboratories introduce machine-learning methods through numerical experiment
 - Expressivity and generalization
 - PyTorch basics
 
-[Lab 1 →](labs/lab01/)
+[Lab 1 →](labs/lab01/README.md)
 
 ### 2. Image classification
 - MNIST classification
@@ -52,7 +52,7 @@ The laboratories introduce machine-learning methods through numerical experiment
 - overfitting, regularization and early stopping
 - data augmentation
 
-[Lab 2 →](labs/lab02/)
+[Lab 2 →](labs/lab02/README.md)
 
 ### 3. Group-equivariant CNNs
 - symmetries in physical systems
@@ -60,7 +60,7 @@ The laboratories introduce machine-learning methods through numerical experiment
 - equivariant convolutional networks
 - applications to crystal structures
 
-[Lab 3 →](labs/lab03/)
+[Lab 3 →](labs/lab03/README.md)
 
 ### 4. Physics-informed neural networks
 - differential equations and neural networks
@@ -69,14 +69,14 @@ The laboratories introduce machine-learning methods through numerical experiment
 - solving differential equations with PINNs
 - operator learning
 
-[Lab 4 →](labs/lab04/)
+[Lab 4 →](labs/lab04/README.md)
 
 ### 5. Transformer encoder
 - attention and self-attention
 - transformer encoder
 - physics-inspired decoder
 
-[Lab 5 →](labs/lab05/)
+[Lab 5 →](labs/lab05/README.md)
 
 [All laboratory materials →](labs/)
 
@@ -105,4 +105,4 @@ Other:
 
 ---
 
-Course repository: [MLphys_2026 on GitHub](https://github.com/jarek-pawlowski/MLphys_2026)
+Course repository: [MLphys_2026 on GitHub](https://jarek-pawlowski.github.io/MLphys_2026)

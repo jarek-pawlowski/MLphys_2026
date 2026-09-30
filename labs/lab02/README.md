@@ -78,4 +78,4 @@ Repeat the classifier training on a [dataset of 2D crystallographic structures](
 
 Notebook: [`CNNs.ipynb`](CNNs.ipynb)
 
-[← Laboratory list](../) · [Course page](https://github.com/jarek-pawlowski/MLphys_2026)
+[← Laboratory list](../) · [Course page](https://jarek-pawlowski.github.io/MLphys_2026)

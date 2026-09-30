@@ -113,4 +113,4 @@ A network may have enough capacity to represent a function without being easy to
 
 Notebook: [`preliminary_problems.ipynb`](preliminary_problems.ipynb)
 
-[← Laboratory list](../) · [Course page]({{ site.baseurl }}/)
+[← Laboratory list](../) · [Course page](https://jarek-pawlowski.github.io/MLphys_2026)
