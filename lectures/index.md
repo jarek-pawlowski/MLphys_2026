@@ -16,6 +16,7 @@ title: Lecture notes
 7. **Operator learning** — link to be updated
 8. **Autoencoders and generative models** — link to be updated
 9. **Attention and transformers** — link to be updated
+
 If time permits:
 10. **Recurrent neural networks** — link to be updated
 11. **Self- and semi-supervised learning** — link to be updated
