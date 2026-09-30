@@ -10,73 +10,72 @@ title: "Lab 2 — Image Classification"
 After completing this laboratory you should be able to:
 
 - build image classifiers in PyTorch;
-- compare fully-connected and convolutional architectures;
+- compare a single-layer perceptron, a fully-connected deep network and a CNN;
+- understand the role of training, validation and test sets;
 - recognize overfitting and apply regularization;
-- test data augmentation and generalization.
-
+- evaluate a classifier using accuracy and a confusion matrix.
 
 ---
 
 ## 1. Preparation
 
-Review the corresponding lecture material before the class. Any additional prerequisites and short theoretical notes should be listed here.
+Review:
+
+- multinomial classification and softmax;
+- fully-connected neural networks;
+- convolutional layers and pooling;
+- overfitting and regularization;
+- training, validation and test sets.
 
 ---
 
 ## 2. Environment
 
-Recommended environment:
+The notebook uses:
 
-- Python 3.11+
+- Python 3
 - NumPy
 - Matplotlib
-- PyTorch (where applicable)
-- scikit-learn / additional packages when specified in the notebook
+- PyTorch
+- torchvision
 
-The final Fall 2026 notebook should run from top to bottom in a clean environment.
-
----
-
-## 3. Exercises
-
-### Exercise 1 — MNIST baseline
-
-**Task.** Instructions to be updated while revising and re-running the Fall 2026 notebook.
-
-### Exercise 2 — Convolutional neural network
-
-**Task.** Instructions to be updated while revising and re-running the Fall 2026 notebook.
-
-### Exercise 3 — Regularization and early stopping
-
-**Task.** Instructions to be updated while revising and re-running the Fall 2026 notebook.
-
-### Exercise 4 — Data augmentation
-
-**Task.** Instructions to be updated while revising and re-running the Fall 2026 notebook.
-
-### Exercise 5 — Optional: wallpaper-group dataset
-
-**Task.** Instructions to be updated while revising and re-running the Fall 2026 notebook.
+GPU is optional.
 
 ---
 
-## 4. Questions
+## 3. Experiments
 
-Conceptual questions will be updated together with the notebook. They should focus on interpretation rather than only reproducing numerical results.
+We use the MNIST dataset of handwritten digits and compare three neural-network models:
+
+- a single-layer **Perceptron**;
+- a **Deep** fully-connected network with one hidden layer;
+- a **Convolutional Neural Network (CNN)**.
+
+Train the models and compare their training, validation and test performance.
 
 ---
 
-## 5. Optional task
+## 4. Tasks
 
-An optional extension can be used for students who finish the main exercises early.
+- Apply regularization to the **Deep** model to reduce overfitting. Start with nonzero `weight_decay` ($L^2$ regularization) in the optimizer.
+- Explain why the validation loss of the **CNN** can be lower than the training loss. Test your explanation by turning off **dropout**.
+- Tune one of the models to obtain **Test Set Accuracy > 99%**.
+- Plot the **confusion matrix** for all classes. Which digits are most often confused with each other?
+
+For the confusion matrix, rows represent the ground-truth classes and columns the predicted classes. For example, element $(0,0)$ counts images of digit 0 correctly classified as 0, while element $(0,4)$ counts images of digit 0 incorrectly classified as 4.
+
+---
+
+## 5. Generalization to wallpaper groups
+
+Repeat the classifier training on a [dataset of 2D crystallographic structures](https://drive.google.com/file/d/1BUz9eZdU-8wMGkEEmPk1IIUi05pH5ZUK/view?usp=sharing).
+
+- Can we extract similarities between classes from the confusion matrix?
 
 ---
 
 ## 6. Notebook
 
-Notebook: [`lab02.ipynb`](lab02.ipynb)
+Notebook: [`CNNs.ipynb`](CNNs.ipynb)
 
-> **Fall 2026 status:** template prepared; notebook still needs verification/update.
-
-[← Laboratory list](../) · [Course page]({{ site.baseurl }}/)
+[← Laboratory list](../) · [Course page](https://github.com/jarek-pawlowski/MLphys_2026)
