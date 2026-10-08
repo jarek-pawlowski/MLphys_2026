@@ -41,6 +41,7 @@ GPU is recommended.
 The task can be completed using [google colab](https://colab.research.google.com/gist/jarek-pawlowski/d2f6b2c34fb91b985b51be9ee604af2e/preliminary_problems.ipynb)
 
 You have been granted access to WCSS computing resources. Detailed instructions can be found here: [WCSS GPU Guide](https://man.e-science.pl/pl/kdm/slurm/gpu)
+
 I recommend SSH access using SSH keys: [WCSS Access Guide](https://man.e-science.pl/pl/kdm/dostep)
 
 ---
