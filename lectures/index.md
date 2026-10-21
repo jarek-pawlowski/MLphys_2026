@@ -8,7 +8,7 @@ title: Lecture notes
 ## Machine Learning in Physics — Fall 2026
 
 1. **Machine learning fundamentals** — [link](https://drive.google.com/file/d/1ymGTRWMUBF3c6V5DGgkq7T7asiU2ypjm/view?usp=sharing)
-2. **Deep neural networks** — link to be updated
+2. **Deep neural networks** — [link](https://drive.google.com/file/d/1HIgk3xACEN2G_l6e-_JdQ2q3J0Ol9msg/view?usp=sharing)
 3. **Convolutional neural networks** — link to be updated
 4. **Group-equivariant neural networks** — link to be updated
 5. **Graph neural networks** — link to be updated
