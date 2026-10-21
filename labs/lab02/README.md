@@ -71,6 +71,7 @@ For the confusion matrix, rows represent the ground-truth classes and columns th
 Repeat the classifier training on a [dataset of 2D crystallographic structures](https://drive.google.com/file/d/1BUz9eZdU-8wMGkEEmPk1IIUi05pH5ZUK/view?usp=sharing).
 
 - Can we extract similarities between classes from the confusion matrix?
+- code used to generate data: [`utils_gen.py`](utils_gen.py) and [`test.py`](test.py)
 
 ---
 
